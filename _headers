@@ -14,18 +14,3 @@
 # Compression
 /*
   Content-Encoding: gzip
-
-# Redirects
-/register.php
-  /register
-
-/logout.php
-  /logout
-
-# Additional redirects
-/index.html
-  /login.html   301
-
-# CSS file
-/style.css
-  /style.css
