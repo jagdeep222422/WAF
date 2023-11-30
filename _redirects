@@ -1,13 +1,3 @@
-# Redirects for HTML files
-/register
-  /register.php
-
-/login
-  /login.html
-
-/logout
-  /logout.php
-
-# Additional redirects
-/index.html
-  /login.html   301
+/register     /
+/register/register.php    /register
+/login      /login
