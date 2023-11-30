@@ -1,0 +1,31 @@
+# Security headers
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer-when-downgrade
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+
+# Cache control
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Compression
+/*
+  Content-Encoding: gzip
+
+# Redirects
+/register.php
+  /register
+
+/logout.php
+  /logout
+
+# Additional redirects
+/index.html
+  /login.html   301
+
+# CSS file
+/style.css
+  /style.css
